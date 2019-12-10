@@ -1,0 +1,42 @@
+{
+  "name": "@nger/redis.types",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "imeepos <1037483576@qq.com>",
+  "homepage": "https://github.com/meepobrother/nger-redis#readme",
+  "license": "ISC",
+  "types": "lib/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org",
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meepobrother/nger-redis.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/meepobrother/nger-redis/issues"
+  },
+  "dependencies": {
+    "@types/ioredis": "^4.0.4",
+    "@types/uuid": "^3.4.4",
+    "ioredis": "^4.2.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "@nestjs/common": "^6.10.9",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.5.3"
+  }
+}

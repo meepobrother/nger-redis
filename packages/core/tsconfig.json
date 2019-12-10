@@ -1,10 +1,5 @@
 {
-    "compileOnSave": true,
-    "compilerOptions": {
-        "baseUrl": ".",
-        "target": "esnext",
-        "module": "commonjs"
-    },
+    "extends": "../../tsconfig.json",
     "include": [
         "lib"
     ],
